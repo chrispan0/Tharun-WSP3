@@ -8,7 +8,7 @@ router.get('/home', function(req, res, next) {
 });
 /* GET contactus page. */
 router.get('/contactus', function(req, res, next) {
-  res.render('contact', { title: 'Contact Us' });
+  res.render('contact', { title: 'Contact Me' });
 });
 
 module.exports = router;
