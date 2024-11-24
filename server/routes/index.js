@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/index', function(req, res, next) {
-  res.render('home', { title: 'Index' });
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Home' });
 });
-
 /* GET home page. */
 router.get('/home', function(req, res, next) {
   res.render('home', { title: 'Home' });
