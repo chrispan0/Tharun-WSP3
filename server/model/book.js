@@ -1,7 +1,7 @@
 //const { Collection, default: mongoose } = require("mongoose");
 
 const mongoose = require("mongoose");
-
+/* Changed Author into a Number */
 let bookModel = mongoose.Schema({
     Name: String,
     Author: Number,
